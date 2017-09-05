@@ -27,6 +27,7 @@ public class Fatec {
             tudo += i;
             System.out.println("Valor" + (i + 1) + " = " + tudo);
         }
+        System.out.println("Você viu o resultado da soma?");
         System.out.println("Este foi nosso primeiro exemplo, até logo.");
     }
 
