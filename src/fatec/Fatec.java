@@ -20,8 +20,14 @@ public class Fatec {
        int numeroB = 13;
        int soma;
        soma = numeroA + numeroB;
-        System.out.println("O valor total é = " + soma);
-       
+       System.out.println("O valor total é = " + soma);
+       int tudo =100; 
+       int i;
+        for(i = 0; i < 10; i++){
+            tudo += i;
+            System.out.println("Valor" + (i + 1) + " = " + tudo);
+        }
+        System.out.println("Este foi nosso primeiro exemplo, até logo.");
     }
-    
+
 }
