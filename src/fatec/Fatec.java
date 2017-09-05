@@ -16,6 +16,12 @@ public class Fatec {
      */
     public static void main(String[] args) {
        System.out.println("Esta é minha primeira versão no GIT.");
+       int numeroA = 12;
+       int numeroB = 13;
+       int soma;
+       soma = numeroA + numeroB;
+        System.out.println("O valor total é = " + soma);
+       
     }
     
 }
